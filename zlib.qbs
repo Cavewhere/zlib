@@ -1,6 +1,6 @@
 import qbs 1.0
 
-DynamicLibrary {
+StaticLibrary {
     name: "z"
 
     Depends { name: "cpp" }
