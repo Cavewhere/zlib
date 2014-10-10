@@ -5,6 +5,8 @@ StaticLibrary {
 
     Depends { name: "cpp" }
 
+    cpp.warningLevel: "none"
+
     Export {
         Depends { name: "cpp" }
         cpp.includePaths: ["."]
