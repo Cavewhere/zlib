@@ -6,6 +6,7 @@ StaticLibrary {
     Depends { name: "cpp" }
 
     cpp.warningLevel: "none"
+    cpp.minimumMacosVersion: "10.7"
 
     Export {
         Depends { name: "cpp" }
